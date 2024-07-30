@@ -1,0 +1,19 @@
+.countryMain{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+.visited-btn{
+  background-color: #2acb2a;
+  color: white;
+  width: 300px;
+
+  border-radius: 10px;
+}
+.unvisited-btn{
+  background-color: red;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+}
