@@ -1,6 +1,7 @@
 import './App.css'
 
 import CustomHookForm from './components/form/CustomHookForm'
+import EnhancedDisplayMessage from './components/hoc/EnhancedDisplayMessage';
 import Homepage from './components/home/Homepage';
 import LineCharts from './components/charts/LineCharts';
 import Posts from './components/posts/Posts';
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <Homepage></Homepage>
+      <EnhancedDisplayMessage message="hello world"></EnhancedDisplayMessage>
       {/*
         <Country></Country>
         <SimpleForm></SimpleForm>
